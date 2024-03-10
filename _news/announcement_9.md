@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have released "ObjectCompose: Evaluating Resilience of Vision-Based Models on Object-to-Background Compositional Changes". More details [Project Page](https://muhammad-huzaifaa.github.io/ObjectCompose/) 
+We have released "ObjectCompose: Evaluating Resilience of Vision-Based Models on Object-to-Background Compositional Changes". More details at [Project Page](https://muhammad-huzaifaa.github.io/ObjectCompose/) 
