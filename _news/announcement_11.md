@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have released [Test-Time Low Rank Adaptation via Confidence Maximization for Zero-Shot Generalization of Vision-Language Models]([https://muhammad-huzaifaa.github.io/ObjectCompose/](https://arxiv.org/pdf/2407.15913))
+We have released [Test-Time Low Rank Adaptation via Confidence Maximization for Zero-Shot Generalization of Vision-Language Models](https://arxiv.org/pdf/2407.15913)
