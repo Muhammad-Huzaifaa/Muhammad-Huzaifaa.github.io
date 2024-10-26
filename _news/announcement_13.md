@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-08-14 15:59:00-0400
+date: 2024-09-15 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Serving as a reviewer at WACV’25
+**ObjectCompose Accepted at ACCV for** <span style="color: red; font-weight: bold;">oral presentation</span>!
