@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**ObjectCompose Accepted at ACCV for** <span style="color: red; font-weight: bold;">oral presentation</span>!
+**ObjectCompose** Accepted at ACCV for <span style="color: red; font-weight: bold;">oral presentation</span>!
