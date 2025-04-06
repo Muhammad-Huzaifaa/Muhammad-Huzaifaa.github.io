@@ -26,4 +26,4 @@ I completed my Masters in Machine Learning from [MBZUAI](https://mbzuai.ac.ae/) 
 
 
 
- <a href="mailto:muhammad.huzaifa@mbzuai.ac.ae">Email</a>  /  <a href="https://scholar.google.com/citations?user=V7hTDxQAAAAJ&hl=en">Google Scholar</a>  /  <a href="https://github.com/Muhammad-Huzaifaa">Github</a>  /  <a href="https://twitter.com/huzaifa2k50">Twitter </a>  /  <a href="https://huzaifa1090.github.io/assets/pdf/Resume__.pdf">CV</a> 
+ <a href="mailto:muhammad.huzaifa@mbzuai.ac.ae">Email</a>  /  <a href="https://scholar.google.com/citations?user=V7hTDxQAAAAJ&hl=en">Google Scholar</a>  /  <a href="https://github.com/Muhammad-Huzaifaa">Github</a>  /  <a href="https://twitter.com/huzaifa2k50">Twitter </a>  /  <a href="https://huzaifa1090.github.io/assets/pdf/Resume.pdf">CV</a> 
