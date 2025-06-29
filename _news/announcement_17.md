@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have joined University of Tuebingen as a PhD Researcher working under the supervision of [Prof. Hilde Kuehne](https://hildekuehne.github.io/)
+I have joined University of Tuebingen as a Researcher working under the supervision of [Prof. Hilde Kuehne](https://hildekuehne.github.io/)
