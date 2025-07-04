@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Welcome to my Website! I am a Researcher associated with the [University of Tubingen](https://uni-tuebingen.de/) working under [Prof. Hilde](https://hildekuehne.github.io/). My research focuses on Efficient Multimodal Models. Previously, I also explored the robustness of vision models, and adaptation of vision-language models in scenarios with limited data, including few-/zero-shot setups.
+Welcome to my Website! I am a Researcher at the [University of Tubingen](https://uni-tuebingen.de/). My research focuses on Efficient Multimodal Models. Previously, I also explored the robustness of vision models, and adaptation of vision-language models in scenarios with limited data, including few-/zero-shot setups.
 
 I have also worked with [Dr. Yova](https://yovakem.github.io/) as a Research Associate.
 
