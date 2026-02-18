@@ -141,17 +141,24 @@ span.highlight {
     border-radius: 10px;
 }
 
-.news-scroll{
-  max-height: 170px;   /* adjust */
-  overflow-y: auto;
-  display: block;
-  padding-right: 10px; /* space for scrollbar */
-}
-
-/* optional: if you want a boxed look */
-.news-box {
+.news-box{
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 12px;
   padding: 12px 14px;
   background: rgba(0,0,0,0.02);
+}
+
+.news-scroll{
+  max-height: 140px;     /* IMPORTANT: must be smaller than content */
+  overflow-y: scroll;    /* force scrollbar */
+  display: block;
+}
+
+/* optional: spacing between lines */
+.collapsible-header{
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.collapsible-header:last-child{
+  border-bottom: none;
 }
