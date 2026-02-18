@@ -141,11 +141,11 @@ span.highlight {
     border-radius: 10px;
 }
 
-/* Scrollable news box */
-.news-scroll {
-  max-height: 170px;      /* change height as you like */
+.news-scroll{
+  max-height: 170px;   /* adjust */
   overflow-y: auto;
-  padding-right: 10px;    /* room for scrollbar */
+  display: block;
+  padding-right: 10px; /* space for scrollbar */
 }
 
 /* optional: if you want a boxed look */
