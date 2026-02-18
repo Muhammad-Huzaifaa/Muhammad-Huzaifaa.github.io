@@ -149,7 +149,7 @@ span.highlight {
 }
 
 .news-scroll{
-  max-height: 140px;     /* IMPORTANT: must be smaller than content */
+  max-height: 210px;     /* IMPORTANT: must be smaller than content */
   overflow-y: scroll;    /* force scrollbar */
   display: block;
 }
