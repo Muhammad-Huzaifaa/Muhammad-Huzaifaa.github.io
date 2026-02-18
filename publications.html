@@ -14,46 +14,144 @@
     <tbody>
       <tr>
         <td style="padding:24px 16px;">
-          <div style="display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap;">
+
+          <div class="pub-top">
             <h1 style="margin:0;">Publications</h1>
             <a href="index.html">← Back to home</a>
           </div>
 
-          <p style="margin-top:10px;">
-            Full list of papers (add/expand as needed).
+          <p class="pub-subtitle">
+            A complete list of papers and projects. Use search/filter to quickly find items.
           </p>
 
-          <h2 style="margin-top:24px;">Conference & Journal Papers</h2>
-          <ul style="line-height:1.5;">
-            <li>
-              <strong>Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes</strong> — BMVC 2025
-              · <a href="https://arxiv.org/abs/2412.05700" target="_blank" rel="noopener noreferrer">arXiv</a>
-              · <a href="https://ahmad-jarrar.github.io/tc-3dgs/" target="_blank" rel="noopener noreferrer">Project</a>
+          <div class="pub-controls">
+            <input id="pubSearch" class="pub-search" type="text" placeholder="Search title / venue / year..." />
+
+            <button class="pub-chip active" data-filter="all" type="button">All</button>
+            <button class="pub-chip" data-filter="conf" type="button">Conference</button>
+            <button class="pub-chip" data-filter="jour" type="button">Journal</button>
+            <button class="pub-chip" data-filter="pre" type="button">Preprint</button>
+          </div>
+
+          <ul class="pub-list" id="pubList">
+
+            <li class="pub-item" data-type="conf" data-text="temporally compressed 3d gaussian splatting dynamic scenes bmvc 2025">
+              <p class="pub-title">
+                Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes
+                <span class="pub-tag">BMVC 2025</span>
+              </p>
+              <p class="pub-meta">
+                <strong>Saqib Javed</strong>, Ahmad Jarrar Khan, Corentin Dumery, Chen Zhao, Mathieu Salzmann
+              </p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2412.05700" target="_blank" rel="noopener noreferrer">arXiv</a>
+                <a href="https://ahmad-jarrar.github.io/tc-3dgs/" target="_blank" rel="noopener noreferrer">Project</a>
+                <a href="https://github.com/saqibjaved1/TC3DGS" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
             </li>
-            <li>
-              <strong>Self-Ensembling Gaussian Splatting for Few-Shot Novel View Synthesis</strong> — ICCV 2025
-              · <a href="https://arxiv.org/pdf/2411.00144" target="_blank" rel="noopener noreferrer">arXiv</a>
-              · <a href="https://sailor-z.github.io/projects/SEGS.html" target="_blank" rel="noopener noreferrer">Project</a>
+
+            <li class="pub-item" data-type="conf" data-text="self-ensembling gaussian splatting few-shot novel view synthesis iccv 2025">
+              <p class="pub-title">
+                Self-Ensembling Gaussian Splatting for Few-Shot Novel View Synthesis
+                <span class="pub-tag">ICCV 2025 (Oral)</span>
+              </p>
+              <p class="pub-meta">
+                Chen Zhao, <strong>Saqib Javed</strong>, Xuan Wang, Tong Zhang, Mathieu Salzmann
+              </p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2411.00144" target="_blank" rel="noopener noreferrer">arXiv</a>
+                <a href="https://sailor-z.github.io/projects/SEGS.html" target="_blank" rel="noopener noreferrer">Project</a>
+                <a href="https://github.com/sailor-z/SE-GS" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
             </li>
-            <li>
-              <strong>QT-DoG: Quantization-aware Training for Domain Generalization</strong> — ICML 2025
-              · <a href="https://arxiv.org/abs/2410.06020" target="_blank" rel="noopener noreferrer">arXiv</a>
-              · <a href="https://saqibjaved1.github.io/QT_DoG/" target="_blank" rel="noopener noreferrer">Project</a>
+
+            <li class="pub-item" data-type="conf" data-text="qt-dog quantization-aware training domain generalization icml 2025">
+              <p class="pub-title">
+                QT-DoG: Quantization-aware Training for Domain Generalization
+                <span class="pub-tag">ICML 2025</span>
+              </p>
+              <p class="pub-meta">
+                <strong>Saqib Javed</strong>, Hieu Le, Mathieu Salzmann
+              </p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2410.06020" target="_blank" rel="noopener noreferrer">arXiv</a>
+                <a href="https://saqibjaved1.github.io/QT_DoG/" target="_blank" rel="noopener noreferrer">Project</a>
+                <a href="https://github.com/saqibjaved1/QT-DoG" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
             </li>
-            <li>
-              <strong>FastPose-ViT: A Vision Transformer for Real-Time Spacecraft Pose Estimation</strong> — WACV 2026
-              · <a href="https://arxiv.org/abs/2512.09792" target="_blank" rel="noopener noreferrer">arXiv</a>
-              · <a href="https://pierreancey.org/projects/fastpose-vit" target="_blank" rel="noopener noreferrer">Project</a>
+
+            <li class="pub-item" data-type="conf" data-text="fastpose-vit vision transformer real-time spacecraft pose estimation wacv 2026">
+              <p class="pub-title">
+                FastPose-ViT: A Vision Transformer for Real-Time Spacecraft Pose Estimation
+                <span class="pub-tag">WACV 2026</span>
+              </p>
+              <p class="pub-meta">
+                Pierre Ancey, Andrew Lawrence Price, <strong>Saqib Javed</strong>, Mathieu Salzmann
+              </p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2512.09792" target="_blank" rel="noopener noreferrer">arXiv</a>
+                <a href="https://pierreancey.org/projects/fastpose-vit" target="_blank" rel="noopener noreferrer">Project</a>
+                <a href="https://github.com/pierreancey/FastPose-ViT" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
             </li>
-            <li>
-              <strong>Modular Quantization-Aware Training for 6D Object Pose Estimation</strong> — TMLR 2024
-              · <a href="https://openreview.net/pdf?id=lIy0TEUou7" target="_blank" rel="noopener noreferrer">Paper</a>
-              · <a href="https://saqibjaved1.github.io/MQAT_/" target="_blank" rel="noopener noreferrer">Project</a>
+
+            <li class="pub-item" data-type="jour" data-text="modular quantization-aware training 6d object pose estimation tmlr 2024">
+              <p class="pub-title">
+                Modular Quantization-Aware Training for 6D Object Pose Estimation
+                <span class="pub-tag">TMLR 2024</span>
+              </p>
+              <p class="pub-meta">
+                <strong>Saqib Javed</strong>, Chengkun Li, Andrew Lawrence Price, Yinlin Hu, Mathieu Salzmann
+              </p>
+              <div class="pub-links">
+                <a href="https://openreview.net/pdf?id=lIy0TEUou7" target="_blank" rel="noopener noreferrer">Paper</a>
+                <a href="https://saqibjaved1.github.io/MQAT_/" target="_blank" rel="noopener noreferrer">Project</a>
+                <a href="https://github.com/saqibjaved1/MQAT" target="_blank" rel="noopener noreferrer">Code</a>
+              </div>
             </li>
+
           </ul>
+
+          <p style="margin-top:18px; color: rgba(0,0,0,0.65);">
+            Tip: add more papers by copying a <code>&lt;li class="pub-item"&gt;</code> block and updating <code>data-type</code> and links.
+          </p>
+
         </td>
       </tr>
     </tbody>
   </table>
+
+  <script>
+    const searchEl = document.getElementById('pubSearch');
+    const chips = Array.from(document.querySelectorAll('.pub-chip'));
+    const items = Array.from(document.querySelectorAll('.pub-item'));
+
+    let activeFilter = 'all';
+
+    function applyFilters(){
+      const q = (searchEl.value || '').toLowerCase().trim();
+
+      items.forEach(li => {
+        const type = li.getAttribute('data-type');
+        const text = (li.getAttribute('data-text') || '').toLowerCase();
+
+        const okType = (activeFilter === 'all') || (type === activeFilter);
+        const okSearch = (!q) || text.includes(q);
+
+        li.style.display = (okType && okSearch) ? '' : 'none';
+      });
+    }
+
+    chips.forEach(btn => {
+      btn.addEventListener('click', () => {
+        chips.forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    searchEl.addEventListener('input', applyFilters);
+  </script>
 </body>
 </html>
