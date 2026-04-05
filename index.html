@@ -179,71 +179,88 @@
 
     <!-- Paper 1 -->
     <!-- <tr onmouseout="tc3dgs_stop()" onmouseover="tc3dgs_start()" bgcolor="#ffffd0"> -->
-    <tr onmouseout="tc3dgs_stop()" onmouseover="tc3dgs_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id="tc3dgs">
-            <video width="100%" height="100%" muted autoplay loop>
-              <source src="data/basketball_gt_0.mp4" type="video/mp4">
-              <source src="data/basketball_gt_0.webm" type="video/webm">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <script type="text/javascript">
-          function tc3dgs_start(){ document.getElementById('tc3dgs').style.opacity = "1"; }
-          function tc3dgs_stop(){ document.getElementById('tc3dgs').style.opacity = "1"; }
-          tc3dgs_start();
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://ahmad-jarrar.github.io/tc-3dgs/">
-          <span class="papertitle">Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes</span>
-        </a>
-        <br>
-        <strong>Saqib Javed</strong>*,
-        <a href="mailto:ahmad.khan@epfl.ch">Ahmad Jarrar Khan</a>*,
-        <a href="https://corentindumery.github.io/">Corentin Dumery</a>,
-        <a href="https://sailor-z.github.io/">Chen Zhao</a>,
-        <a href="https://www.datascience.ch/people/mathieu-salzmann">Mathieu Salzmann</a>
-        <br>
-        <em>BMVC</em>, 2025
-        <br>
-        <a href="https://ahmad-jarrar.github.io/tc-3dgs/">project page</a> /
-        <a href="https://arxiv.org/abs/2412.05700">arXiv</a> /
-        <a href="https://github.com/saqibjaved1/TC3DGS">code</a>
-        <p></p>
-        <p>TC3DGS compresses dynamic 3D Gaussian representations using pruning, mixed-precision quantization, and trajectory interpolation, enabling efficient real-time applications.</p>
-      </td>
-    </tr>
 
     <!-- Paper 2 -->
-    <tr onmouseout="tc3dgs_start()" onmouseover="tc3dgs_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <img src="data/viz.png" width="160" style="padding-top:30px;">
-        </div>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://sailor-z.github.io/projects/SEGS.html">
-          <span class="papertitle">Self-Ensembling Gaussian Splatting for Few-Shot Novel View Synthesis</span>
-        </a>
-        <br>
-        <a href="https://sailor-z.github.io/">Chen Zhao</a>,
-        <strong>Saqib Javed</strong>,
-        <a href="https://xuanwangvc.github.io/">Xuan Wang</a>,
-        <a href="https://sites.google.com/view/tong-zhang">Tong Zhang</a>,
-        <a href="https://www.datascience.ch/people/mathieu-salzmann">Mathieu Salzmann</a>
-        <br>
-        <em>ICCV</em>, 2025 <strong style="color:rgb(255, 0, 0);">(Oral, 0.6% acceptance rate)</strong>
-        <br>
-        <a href="https://sailor-z.github.io/projects/SEGS.html">project page</a> /
-        <a href="https://arxiv.org/pdf/2411.00144">arXiv</a> /
-        <a href="https://github.com/sailor-z/SE-GS">code</a>
-        <p></p>
-        <p>SE-GS enhances novel view synthesis by reducing overfitting through uncertainty-aware perturbations and temporal regularization, outperforming existing methods.</p>
-      </td>
-    </tr>
+            <tr onmouseout="objectcompose_start()" onmouseover="objectcompose_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <img src="data/objectcompose.png" width="160" style="padding-top:30px;">
+            </div>
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://muhammad-huzaifaa.github.io/ObjectCompose/">
+              <span class="papertitle">ObjectCompose: Evaluating Resilience of Vision-Based Models on Object-to-Background Compositional Changes</span>
+            </a>
+            <br>
+            <a href="#">Hashmat Shadab Malik*</a>,
+            <strong>Muhammad Huzaifa*</strong>,
+            <a href="#">Muzammal Naseer</a>,
+            <a href="#">Salman Khan</a>,
+            <a href="#">Fahad Shahbaz Khan</a>
+            <br>
+            <em>ACCV</em>, 2024
+            <br>
+            <a href="https://muhammad-huzaifaa.github.io/ObjectCompose/" target="_blank" rel="noopener noreferrer">project page</a> /
+            <a href="https://arxiv.org/abs/2403.04701" target="_blank" rel="noopener noreferrer">arXiv</a> /
+            <a href="https://github.com/Muhammad-Huzaifaa/ObjectCompose" target="_blank" rel="noopener noreferrer">code</a> /
+            <a href="https://openaccess.thecvf.com/content/ACCV2024/papers/Malik_ObjectCompose_Evaluating_Resilience_of_Vision-Based_Models_on_Object-to-Background_Compositional_Changes_ACCV_2024_paper.pdf" target="_blank" rel="noopener noreferrer">paper</a>
+            <p></p>
+            <p>ObjectCompose evaluates how robust vision-based models are to object-to-background compositional shifts, providing a benchmark for studying context sensitivity in modern visual recognition systems.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="visualoverload_start()" onmouseover="visualoverload_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <img src="data/visualoverload.png" width="160" style="padding-top:30px;">
+            </div>
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://paulgavrikov.github.io/visualoverload/">
+              <span class="papertitle">VisualOverload: Probing Visual Understanding of VLMs in Really Dense Scenes</span>
+            </a>
+            <br>
+            <a href="#">Paul Gavrikov</a>,
+            <a href="#">Wei Lin</a>,
+            <a href="#">M. Jehanzeb Mirza</a>,
+            <a href="#">Soumya Jahagirdar</a>,
+            <strong>Muhammad Huzaifa</strong>,
+            <a href="#">Sivan Doveh</a>,
+            <a href="#">Serena Yeung-Levy</a>,
+            <a href="#">James Glass</a>,
+            <a href="#">Hilde Kuehne</a>
+            <br>
+            <em>arXiv</em>, 2025
+            <br>
+            <a href="https://paulgavrikov.github.io/visualoverload/" target="_blank" rel="noopener noreferrer">project page</a> /
+            <a href="https://arxiv.org/abs/2509.25339" target="_blank" rel="noopener noreferrer">arXiv</a> /
+            <a href="https://huggingface.co/datasets/paulgavrikov/visualoverload" target="_blank" rel="noopener noreferrer">dataset</a>
+            <p></p>
+            <p>VisualOverload introduces a dense-scene benchmark for probing detailed visual understanding in vision-language models, revealing substantial performance gaps on crowded, high-detail images.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="efsa_start()" onmouseover="efsa_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <img src="data/efsa.png" width="160" style="padding-top:30px;">
+            </div>
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2412.00139">
+              <span class="papertitle">EFSA: Episodic Few-Shot Adaptation for Text-to-Image Retrieval</span>
+            </a>
+            <br>
+            <strong>Muhammad Huzaifa</strong>,
+            <a href="#">Yova Kementchedjhieva</a>
+            <br>
+            <em>arXiv</em>, 2024
+            <br>
+            <a href="https://arxiv.org/abs/2412.00139" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <p></p>
+            <p>EFSA proposes a test-time episodic few-shot adaptation framework for open-domain text-to-image retrieval, improving robustness across diverse query domains and hard negatives.</p>
+          </td>
+        </tr>
 
 
 
@@ -343,7 +360,7 @@
                 <br>
                 <a>Introduction to Machine Learning ML701 (MBZUAI)</a>, Fall 2023.
                 <br>
-                <a>Deep Learning AI-702 (MBZUAI)</a>, Fall 2023.
+                <a>Deep Learning AI-702 (MBZUAI)</a>, Spring 2023.
               </td>
             </tr>
             
