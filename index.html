@@ -100,13 +100,16 @@
 				      width: 100%;
 				      height: auto;
 				      max-width: 320px;
-				      aspect-ratio: 1 / 1;          /* lock to square */
-				      object-fit: cover;            /* crop to fill, don't stretch */
-				      object-position: center 30%;  /* anchor crop slightly above center to keep face in frame */
-				      border-radius: 50%;           /* makes it a perfect circle */
+				      aspect-ratio: 1 / 1;
+				      object-fit: cover;
+				      object-position: center 20%;   /* anchor crop higher on the face */
+				      transform: scale(1.25);        /* zoom in 25% */
+				      transform-origin: center 30%;  /* zoom toward face area */
+				      border-radius: 50%;
 				      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 				      display: block;
 				      margin-left: auto;
+				      overflow: hidden;
 				    "
 				    class="hoverZoomLink"
 				  >
