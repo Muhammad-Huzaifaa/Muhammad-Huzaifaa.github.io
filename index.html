@@ -99,12 +99,12 @@
 				    style="
 				      width: 100%;
 				      height: auto;
-				      max-width: 400px;             /* was 320px */
-				      aspect-ratio: 4 / 5;          /* enforce portrait crop */
+				      max-width: 320px;
+				      aspect-ratio: 1 / 1;          /* lock to square */
 				      object-fit: cover;            /* crop to fill, don't stretch */
-				      object-position: center 25%;  /* anchor crop to face area */
-				      border-radius: 16px;
-				      box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+				      object-position: center 30%;  /* anchor crop slightly above center to keep face in frame */
+				      border-radius: 50%;           /* makes it a perfect circle */
+				      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 				      display: block;
 				      margin-left: auto;
 				    "
