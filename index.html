@@ -93,21 +93,24 @@
               </td>
               <td style="padding:2.5%;width:26%;max-width:26%">
               <a href="data/profile_pic.jpg">
-              <img
-                src="data/profile_pic.jpg"
-                alt="profile photo"
-                style="
-                  width: 100%;
-                  height: auto;
-                  max-width: 320px;
-                  border-radius: 16px;
-                  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
-                  display: block;
-                  margin-left: auto;
-                "
-                class="hoverZoomLink"
-              >
-            </a> 
+				  <img
+				    src="data/profile_pic.jpg"
+				    alt="profile photo"
+				    style="
+				      width: 100%;
+				      height: auto;
+				      max-width: 400px;             /* was 320px */
+				      aspect-ratio: 4 / 5;          /* enforce portrait crop */
+				      object-fit: cover;            /* crop to fill, don't stretch */
+				      object-position: center top;  /* anchor crop to face area */
+				      border-radius: 16px;
+				      box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+				      display: block;
+				      margin-left: auto;
+				    "
+				    class="hoverZoomLink"
+				  >
+				</a>
               </td>
             </tr>
           </tbody></table>
